@@ -9,7 +9,7 @@ class LocaleRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'locale' => ['required', 'string', 'in:en_US en pt_BR'],
+            'locale' => ['required', 'string', 'regex:/^[a-zA-Z_]{2,10}(\s[a-zA-Z_]{2,10})*$/'],
             'namespace' => ['required', 'string', 'regex:/^(?!.*\.\.)[A-Za-z_. ]{1,191}$/'],
         ];
     }
