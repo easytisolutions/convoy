@@ -15,7 +15,7 @@ i18n.use(I18NextMultiloadBackendAdapter)
     .use(initReactI18next)
     .init({
         // debug: process.env.DEBUG === 'true',
-        lng: 'en_US',
+        lng: 'pt_BR',
         fallbackLng: 'en_US',
         keySeparator: '.',
         backend: {

@@ -38,9 +38,9 @@ const LoginFormContainer = ({
                 </div>
                 <div className='flex justify-between px-6 sm:px-0 py-3 w-full'>
                     <p className='text-xs text-stone-500'>
-                        &copy; 2020 - {new Date().getFullYear()}{' '}
-                        <a href='https://performave.com' target='_blank'>
-                            Performave
+                        &copy; {new Date().getFullYear()}{' '}
+                        <a href='https://easyti.cloud' target='_blank'>
+                            EasyTI Cloud
                         </a>
                     </p>
                     <Switch

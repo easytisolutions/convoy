@@ -21,7 +21,7 @@ const LoginContainer = () => {
     const location = useLocation()
 
     useEffect(() => {
-        document.title = 'Login | Convoy'
+        document.title = 'Login | EasyTI Cloud'
     }, [])
 
     const schema = z.object({
@@ -54,7 +54,7 @@ const LoginContainer = () => {
 
     return (
         <LoginFormContainer
-            title='Convoy'
+            title='EasyTI Cloud'
             description={tAuth('sign_in_description')}
             submitting={methods.formState.isSubmitting}
         >

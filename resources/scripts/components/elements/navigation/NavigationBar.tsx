@@ -122,7 +122,7 @@ const NavigationBar = () => {
                         >
                             <Logo className='w-6 h-6 text-foreground' />
                             <h1 className='font-semibold text-lg text-foreground'>
-                                Convoy
+                                EasyTI Cloud
                             </h1>
                         </Link>
                         {breadcrumb && (
